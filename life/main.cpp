@@ -218,8 +218,7 @@ void live(bool **array, short **neighbours, const int width, const int height) {
 }
 
 void fill_field_manual(bool **array, const int width, const int height) {
-    // функция для заполнения массива клеток живыми клетками
-    // TODO доделать чтение данных из файла, пока хардкод
+    // тестовая функция для заполнения массива клеток живыми клетками
     int alive_count = 10;
     short **alive_positions = new short *[alive_count];
     for (int i = 0; i < alive_count; ++i) {
